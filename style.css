@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    background-image: url("https://learn.logikaschool.com/uploads/student/3531504/6832e603d3452.png");
+}
+
+header{
+    background-image: url("https://learn.logikaschool.com/uploads/student/3531504/6832e30d38bc5.png");
+    font-size: 64px;
+    
+    height: 400px;
+    color: blueviolet;
+}
+h1{
+    text-align: center;
+    left: 100px;
+}
+p {
+color: purple;
+}
+.button{
+    color: purple;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid blue;
+    background-color: blue;
+    top: 0px
+}
+.button1{
+    color: purple;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid blue;
+    background-color: blueviolet;
+    top:50px;
+}
+.button2{
+    color: purple;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid blue;
+    background-color: pink;
+    top:100px;
+}
+ .button3{
+    color: purple;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid blue;
+    background-color: #E270E3;
+    top: 150px ;
+}   
+nav a{
+    position: absolute;
+    left: -80x;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+nav a:hover{
+left: 0px;
+}
+
+.mouse{
+    text-align: center;
+    font-size: 20px;
+}
+.catalog img{
+border-radius: 50%;
+}
+
+.Food{
+    display: flex;
+   flex-wrap: wrap;
+    margin: 30px;
+}
+.Food article{
+     padding: 30px;
+     
+}
